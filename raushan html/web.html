@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduction of webdevlopment</title>
+</head>
+<body>
+    <h1>Web Development</h1>
+    <hr>
+    <h3>What is Web Development?</h3>
+    <p>Web development is the process of creating, building, and maintaining websites and web applications that
+run online via browsers.</p>
+<p>It involves a mix of front-end (user interface), back-end (server-side logic), and database management to
+ensure functionality, interactivity, and performance.
+</p>
+    <h3>Key Aspects of Web Development:</h3>
+    <ul>
+        <li><a href="front.html" style="text-decoration:none" target="mypage">Front-end Development</a></li>
+        <iframe name="mypage" width="50%" height="50"></iframe>
+         <li><a href="back.html" style="text-decoration:none">Back-end Development</a></li>
+        <li><a href="database.html" style="text-decoration:none">Database management</a></li>
+        <li><a href="process.html" style="text-decoration:none">process</a></li>
+    </ul>
+<h3>Core components & Types</h3>
+<ul>
+    <li><a href="Fronted.html" style="text-decoration:none">Fronted:</a></li>
+    <li><a href="Backend.html" style="text-decoration:none">Backend:</a></li>
+    <li><a href="Full stack.html"style="text-decoration:none">Full-Stack:</a></li>
+</ul>
+<h3>Key Objectives</h3>
+<ul>
+    <li>Functionality & Interactivity: Building reliable, dynamic websites (via front-end and back-end) that allow user interaction.</li>
+     <li>User Experience (UX): Ensuring intuitive navigation and performance.</li>
+      <li>Accessibility & Responsiveness: Making websites accessible on all screen sizes, including mobile devices.</li>
+       <li>Security & Maintenance: Protecting user data and maintaining site performance.</li>
+        <li>Business Goal Achievement: Supporting business objectives, such as marketing, sales, or informational content delivery.</li>
+</ul>
+<h3>Web Browser</h3>
+<p>A web browser is a software application used to access, retrieve, and display information from the World Wide Web, including websites, images, and videos. 
+    It acts as an interface between the user and the web server, interpreting HTML code to render web pages. Popular examples include Google Chrome, Safari, Firefox, and Microsoft Edge.
+</p>
+<h3>How a Web Browser Works</h3>
+<p>When you type a URL like https://www.google.com and hit Enter, the browser goes through a high-speed process to deliver the page to your screen.</p>
+
+<h4>1. The DNS Lookup (Finding the Address)</h4>
+<p>Computers don't understand names like "https://www.google.com/search?q=google.com"; they understand numbers called IP Addresses (e.g., 142.250.190.46).</p>
+<p>The browser contacts a DNS (Domain Name System) server.</p>
+<p>It asks: "What is the IP address for this name?"
+
+Once it gets the address, it knows exactly which server in the world to talk to.</p>
+<h4>2. The Request (Sending the Letter)</h4>
+<p>The browser sends an HTTP/HTTPS Request to that server. Think of this as a formal letter saying:
+     "Hello, I would like to see the home page files for this website, please."</p>
+
+<h4>3. The Response (Receiving the Raw Material)</h4>
+<p>The server sends back a Response. This usually includes:</p>
+<p>HTML: The structure (the text and skeleton).</p>
+<p>CSS: The style (colors and fonts).</p>
+<p>JavaScript: The interactivity (buttons and animations).</p>
+<h4>4. Parsing & Rendering (Building the Page)</h4>
+<p>This is where the magic happens inside the Browser Engine. The browser reads the code and builds two internal maps:</p>
+<p>DOM (Document Object Model):A tree structure of all the HTML elements.</p>
+<p>CSSOM (CSS Object Model):A map of how those elements should look.</p>
+
+<h4>5. The Final Paint</h4>
+<p>The browser combines the DOM and CSSOM to create a Render Tree. It calculates exactly where every pixel should go on your screen (Layout) and then literally "paints" the colors, text, and images onto your display.</p>
+
+<h3>Browser Engine</h3>
+<p>The Browser Engine is the invisible powerhouse of a web browser. If the browser is a car, the User Interface (the address bar and buttons) is the dashboard, and the Browser Engine is the actual motor under the hood that makes the car move.</p>
+<p>It acts as the primary coordinator between the User Interface (what you click) and the Rendering Engine (what you see).</p>
+
+<h3>What Exactly Does a Browser Engine Do?</h3>
+<ul>
+<p>The Browser Engine manages the high-level logic of the browser. Its main job is to handle:</p>
+<p><li><b>User Inputs:</b> When you click "Back" or "Refresh," the engine tells the renderer what to do.</p></li>
+<p><li><b>Data Flow:</b>It manages the communication between the browser’s UI and the rendering engine that draws the pixels.</li></p>
+<p><li><b>Security & Storage:</b>It oversees things like cookies, local storage, and the security rules that keep websites from stealing your data.</li></p>
+</ul>
+
+<h3>How it Works: The Process</h3>
+<p>To understand how it works, you have to see where it sits in the "stack." It follows a specific flow:</p>
+<p><li><b>The Trigger:</b>You enter a URL. The Browser Engine tells the networking layer to fetch the data.</li></p>
+<p><li><b>The Hand-off:</b>Once the HTML/CSS files arrive, the Browser Engine hands them to the Rendering Engine.</li></p>
+<p><li><b>Construction:</b>The Rendering Engine builds the DOM Tree (the structure) and the CSSOM Tree (the styles).</li></p>
+<p><li><b>Layout & Painting:</b>The engine calculates the geometry (where things go) and "paints" the screen.</li></p>
+<p><li><b>Interactivity:</b>When you click a button, the Browser Engine detects that input and triggers the JavaScript Engine (like V8) to run the code.</li></p>
+
+<p>Common Engine You Should Now</p>
+
+<P>Browsers
+Developed By
+Blink
+Chrome, Edge, Opera, Brave
+Google/Chromium Project
+Gecko
+Firefox
+Mozilla
+WebKit
+Safari (and all iOS browsers)
+Apple</P>
+
+<b>Note:</b>
+<p>Sometimes, a website looks perfect in Chrome but "breaks" in Safari. This is because different engines interpret code slightly differently. As a developer, you have to write code that all these engines can understand—this is called Cross-Browser Compatibility.</p>
+<h3>“Big Three" Engines</h3>
+<li>Browser Engine: The Manager (Coordinates everything).</li>
+<li>Rendering Engine: The Artist (Draws the HTML/CSS).</li>
+<li>JavaScript Engine: The Mathematician (Calculates the logic).</li>
+
+<h3>Static Website</h3>
+<p>A static website is a collection of pre-built HTML, CSS, and JavaScript files delivered directly to a user's browser, displaying the exact same content to every visitor.</p>
+
+<h3>Dynamic Website</h3>
+<p>A dynamic website is a modern website that generates content in real-time, displaying tailored information to users based on their actions, preferences, or location.</p>
+
+<h3>Client-Server Model</h3>
+<p>The client-server model is a distributed application structure in web development where a user's device (client) sends requests for resources or data to a centralized computer (server), which processes the request and sends back a response.</p>
+<p>The client handles the user interface (frontend), while the server handles data management and business logic (backend).</p>
+
+<h2>Key Components</h2>
+<li>Client (Requester): The end-user application, such as a web browser (Chrome, Firefox) or mobile app, which initiates interaction by requesting data, files, or services.</li>
+<li>Server (Provider): A computer, system, or application (e.g., Apache, Nginx) that listens for incoming client requests, processes them, and returns the requested resources.</li>
+<li>Network/Protocol: The communication channel (often the Internet) using protocols such as HTTP/HTTPS to transport requests and responses.</li>
+
+<h3>Request-Response Cycle</h3>
+<li>Request: A user clicks a link (client) which triggers an HTTP request, often sent to a server.</li>
+<li>Processing: The server receives the request, processes it, retrieves necessary data from a database, or runs backend code.</li>
+<li>Response: The server sends back the requested material, such as HTML/CSS/JS files or API data (JSON), which the browser renders for the user.</li>
+
+<p>Example:</p>
+<p>Web Browsing: Your browser (client) asks for a webpage from a web server.<p>
+    <p>Email: Outlook or Gmail (client) asks for new messages from an email server.</p>
+</pOnline Gaming: A gaming app (client) receives game state data from a gaming server.></p>
+
+<h3>URL (Uniform Resource Locator)</h3>
+<p>A URL (Uniform Resource Locator), often called a web address, is a unique string of characters used to locate a specific resource—such as a webpage, image, or file—on the internet.</p>
+<p>It acts as the address, specifying the protocol (like HTTPS) and the location of the resource, allowing browsers to find it.</p>
+
+<h3>Key Aspects of a URL</h3>
+<li>Web Address: It is what you type into the browser address bar to visit a site.</li>
+<li>Structure: It typically includes the protocol (https://), the domain name (e.g., www.example.com), and the file path (e.g., /page).</li>
+<li>Unique Identifier: Every page on the internet has a unique URL, ensuring it can be found.</li>
+<li>Components:</li>
+<p>Protocol: Defines how the data is transferred (e.g., http, https, ftp).</p>
+<p>Domain Name: The web address of the server (e.g., google.com).</p>
+<p>Path: Specifies the specific page or file on the server.</p>
+
+<h3>Common URL Parts Example:</h3>
+<p>https://www.example.com/folder/page.html</p>
+<p><b>Protocol: https</b></p>
+<p><b>Domain: www.example.com</b></p>
+<p><b>Path: /folder/page.html</b></p>
+
+
+</body>
+
+</html>
